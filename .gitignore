@@ -1,0 +1,6 @@
+.DS_Store
+/lib/assets/images.json.js
+/public
+!/public/index.html
+/node_modules
+/limejs
