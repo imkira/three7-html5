@@ -1,0 +1,27 @@
+{
+  "author": "Mario Freitas <imkira@gmail.com>",
+  "name": "three7-html5",
+  "description": "HTML5/Canvas falling-blocks game inspired by a similar game featured in YuYu Hakusho anime.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imkira/three7-html5"
+  },
+  "license": "MIT",
+  "keywords": [
+    "game",
+    "html5",
+    "canvas",
+    "multiplayer"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "express": "2.5.5",
+    "gzippo": "0.1.4",
+    "now": "git://github.com/scriby/now.git",
+    "underscore": "1.3.1"
+  },
+  "main": "lib/server.js"
+}
