@@ -15,6 +15,21 @@ I decided to publish the code because I enjoyed the game a lot.
 Please note that for compatibility reasons, I am forcing old versions of
 dependencies and npm packages.
 
+# Demo
+
+[Online Demo](http://imkira.github.io/three7-html5).
+
+Please note that because it is hosted as a static page on github, it is not
+possible to play in multiplayer mode.
+
+## Dependencies
+
+- You need python and java to build the app with limejs
+- You need an old version of node (v0.8.28 works) to run the server.
+
+I recommend using [nvm](https://github.com/creationix/nvm) for installing
+custom node versions.
+
 ## Installation
 
 ```shell
