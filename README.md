@@ -22,6 +22,10 @@ dependencies and npm packages.
 Please note that because it is hosted as a static page on github, it is not
 possible to play in multiplayer mode.
 
+The following is a screencast taken during multiplay:
+
+![Screencast](https://raw.githubusercontent.com/imkira/three7-html5/gh-pages/assets/screencast.gif)
+
 ## Dependencies
 
 - You need python and java to build the app with limejs
