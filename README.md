@@ -3,17 +3,23 @@
 This is an HTML5/Canvas falling-blocks game inspired by a similar game featured
 in Yu-Yu Hakusho Japanese animation.
 
-The game is similar to tetris, but the biggest difference relies on how blocks
-are cleared. In order to clear a block, you have to place it adjacent to two
-other blocks (vertically, horizontally, or both) and the sum of those three
-blocks must be exactly 7 or, alternatively, the three blocks must be exactly 7,
-7, 7. This can be cyclic and include chains.
+![Screencast](https://raw.githubusercontent.com/imkira/three7-html5/gh-pages/assets/screencast.gif)
 
-I made it in a couple of days using limejs now nowjs during March of 2012, but
-I decided to publish the code because I enjoyed the game a lot.
+This game may resemble tetris, but the biggest difference relies on how blocks
+are cleared. All pieces have exactly 3 blocks. Each block has a value that goes
+from 1 to 7. If a block falls with a value that when added to the values of
+either horizontal or vertical sequence of blocks equals 7, then the falling
+block and that sequence of blocks will disappear. Any blocks above those blocks
+will fall and combos may be triggered. A block of 7 does not clear by itself,
+since there must 2 or more blocks involved in the sum.
 
-Please note that for compatibility reasons, I am forcing old versions of
-dependencies and npm packages.
+There is just an exception to this rule, which is the group of three 7 blocks
+(hence the name of the game). If you manage to make a group of 7, 7, 7 (either
+vertically or horizontally), you will also be able to clear those.
+
+I made this game in a couple of days using limejs now nowjs during March of
+2012, but I decided to publish the code because I enjoyed the game concept a
+lot.
 
 # Demo
 
@@ -22,11 +28,10 @@ dependencies and npm packages.
 Please note that because it is hosted as a static page on github, it is not
 possible to play in multiplayer mode.
 
-The following is a screencast taken during multiplay:
-
-![Screencast](https://raw.githubusercontent.com/imkira/three7-html5/gh-pages/assets/screencast.gif)
-
 ## Dependencies
+
+Please note that for compatibility reasons, I am forcing old versions of
+dependencies and npm packages.
 
 - You need python and java to build the app with limejs
 - You need an old version of node (v0.8.28 works) to run the server.
